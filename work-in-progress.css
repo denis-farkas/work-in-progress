@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
 
 body {
-    color: #404040;
+    background-color: #404040;
     font-family: 'Comfortaa', Arial, sans-serif;
     font-size: 18px;
     line-height: 1.5;
+    color: yellowgreen;
 }
 
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+
 .head {
-    background-color: teal;
+    background-color: teal;    
 }
 
 h2 {
@@ -20,6 +27,8 @@ letter-spacing: 2px;
 .card {
     background: white;
     margin-bottom: 2em;
+    display: flex;
+    justify-content: space-around;
 }
 
 .card-content {
@@ -32,18 +41,16 @@ letter-spacing: 2px;
     font-weight: bold;
 }
 
-
-
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 img {
     display: block;
     border: 0;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -55,3 +62,4 @@ p {
 blockquote {
     margin: 0 1.5em;
 }
+
