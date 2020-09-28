@@ -22,7 +22,23 @@ h2 {
 clear: both;
 font-family: 'Patua One', serif;
 letter-spacing: 2px;
+-webkit-animation: glow 2s ease-in-out infinite alternate;
+-moz-animation: glow 2s ease-in-out infinite alternate;
+animation: glow 2s ease-in-out infinite alternate;
 }
+
+  @-webkit-keyframes glow {
+      from {
+          color: #fff;
+          text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+      }
+
+      to {
+          color: gray;
+          text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+      }
+  }
+
 
 .card {
     background: white;
@@ -48,9 +64,8 @@ letter-spacing: 2px;
 }
 
 img {
-    display: block;
     border: 0;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -62,4 +77,5 @@ p {
 blockquote {
     margin: 0 1.5em;
 }
+
 
