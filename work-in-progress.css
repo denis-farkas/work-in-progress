@@ -11,11 +11,13 @@ body {
 .container{
     display:flex;
     justify-content: center;
+    text-align: center;
 }
 
 
 .head {
-    background-color: teal;    
+    background-color: teal; 
+    text-align: center;   
 }
 
 h2 {
